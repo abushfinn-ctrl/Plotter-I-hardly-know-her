@@ -12,7 +12,7 @@ The X-Axis carriage runs along two 3/8" rod connected to the bottom via linear b
 
 
 # BOM
-|Name               |Description                                     |Link                                                                                                                                                |Price (USD)|Price (CAD)|Running Total (CAD)|Running Total (USD)|Running Total (USD) Without green
+|Name               |Description                                     |Link                                                                                                                                                |Price (USD)|Price (CAD)|Running Total (CAD)|Running Total (USD)|Running Total (USD) Without green|
 |-------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------|-------------------|-------------------|---------------------------------|------------------|
 |MKS DLC32          |Main control board for the steppers running GRBL|GRBL Shield Controller MKS DLC32 V2.1 Control Card TS35 LCD CNC Upgrade Controller for mini Printer Engraving Marking Machine - AliExpress 202216001|$40.84     |$56.49     |$56.49             |$40.84             |$40.84                           |                  |
 |3 Nema 17 motors   |Stepper motors to control the x and y axis      |Nema 17                                                                                                                                             |$39.72     |$54.95     |$111.44            |$80.56             |$40.84                           |                  |
