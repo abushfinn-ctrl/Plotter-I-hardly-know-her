@@ -1,2 +1,27 @@
 # Plotter-I-hardly-know-her
-A pen plotter based on a 500mmx500mm 2020 frame
+A pen plotter based on a 500mmx500mm 2020 frame. The goal of this project was to create a pen plotter that could later be converted into a light engraver by adding an engraving pen to the attachment holes. Currently, the pen is attached by using spring tool clips. It runs using a MKS DLC32 control board with the servo for the pen lift using a modified pwm signal from the Z-probe port. 
+
+# Y-Axis 
+The y-axis carriages are on v slot wheel that will run along the 2020 frame. The main plate on the carriages will be printed and then the idler pulley, stepper, and rods are connected with screws. 
+The motors are connected via a Belt that goes in and then loops back on itself for a tight friction fit. 
+<img width="1209" height="616" alt="Screenshot 2026-09-06 at 5 33 26 PM" src="https://github.com/user-attachments/assets/0af8bf29-c33b-45a2-a59f-f9b296cd1da8" />
+
+# X-Axis 
+The X-Axis carriage runs along two 3/8" rod connected to the bottom via linear bearings that are press fitted in.
+<img width="1920" height="793" alt="pencarriage_2026-Sep-06_09-26-26PM-000_CustomizedView1569395319_jpg" src="https://github.com/user-attachments/assets/bca008f1-50cb-4c31-abca-42110a46799a" />
+
+
+# BOM
+|Name               |Description                                     |Link                                                                                                                                                |Price (USD)|Price (CAD)|Running Total (CAD)|Running Total (USD)|Running Total (USD) Without green|GREEN=ALREADY HAVE|
+|-------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------|-------------------|-------------------|---------------------------------|------------------|
+|MKS DLC32          |Main control board for the steppers running GRBL|GRBL Shield Controller MKS DLC32 V2.1 Control Card TS35 LCD CNC Upgrade Controller for mini Printer Engraving Marking Machine - AliExpress 202216001|$40.84     |$56.49     |$56.49             |$40.84             |$40.84                           |                  |
+|3 Nema 17 motors   |Stepper motors to control the x and y axis      |Nema 17                                                                                                                                             |$39.72     |$54.95     |$111.44            |$80.56             |$40.84                           |                  |
+|2020 Extrusions    |2020 T slot extrusion                           |500m 4 pack 2020 extrusion                                                                                                                          |$35.42     |$48.99     |$160.43            |$115.98            |$40.84                           |                  |
+|10 GT2 Pulleys     |Pulley for stepper motor                        |GT2                                                                                                                                                 |$11.62     |$16.08     |$176.51            |$127.60            |$52.46                           |                  |
+|V slot wheels (2)  |Wheels for the v slot 2020                      |V slot wheels                                                                                                                                       |$5.57      |$7.70      |$184.21            |$133.17            |$58.03                           |                  |
+|SG90 Servo         |Servo to control pen lift                       |SG90                                                                                                                                                |$2.00      |$2.77      |$186.98            |$135.17            |$60.03                           |                  |
+|M3 Screw assortment|Assorted screw length m3                        |M3                                                                                                                                                  |$9.03      |$12.49     |$199.47            |$144.20            |$69.06                           |                  |
+|3/8 Stainless rod  |2 peices of 440mm stainless rod                 |N/A                                                                                                                                                 |N/A        |N/A        |N/A                |N/A                |N/A                              |                  |
+|Linear bearings    |OD=16mm ID=9.525mm Quant=4                      |N/A                                                                                                                                                 |N/A        |N/A        |N/A                |N/A                |N/A                              |                  |
+|Bearings           |OD=12mm ID=4mm Thickness= 4mm Quantity= 7       |N/A                                                                                                                                                 |N/A        |N/A        |N/A                |N/A                |N/A                              |                  |
+|Tool Clips         |10mm tool clips                                 |Tool clips                                                                                                                                          |$3.61      |$4.99      |$204.46            |$147.81            |$72.67                           |                  |
